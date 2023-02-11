@@ -1,0 +1,79 @@
+:root {
+  --color-theme: rgb(221, 24, 24);
+  --second-color-theme: rgb(0, 219, 120);
+  --shop-color-theme: rgb(160, 5, 221);
+  --settings-color-theme: rgb(255, 183, 67);
+}
+
+body {
+  text-align: center;
+  color: rgb(230, 230, 230);
+  background-color: rgb(26, 25, 25);
+}
+
+.title {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.subtitles {
+  font-size: 25px;
+}
+
+.counter,
+.rebirth-count,
+.rebirth-req {
+  text-align: center;
+  margin: 20px;
+  border: solid var(--color-theme);
+  padding: 50px;
+  font-size: 50px;
+}
+
+.options {
+  border-top: solid var(--second-color-theme);
+  padding: 10px;
+}
+
+.btn {
+  color: rgb(22, 85, 173);
+  border: solid rgb(22, 85, 173);
+  background-color: transparent;
+  font-size: 20px;
+  margin: 10px;
+  text-align: right;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.multipliers {
+  text-align: left;
+  border: solid var(--shop-color-theme);
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.desc {
+  text-align: right;
+  padding-left: 10px;
+}
+
+/* .x4image {
+  float: right;
+  margin-left: 0px 0px 0px 30px;
+} */
+
+.a {
+  padding: 40px;
+}
+
+.selected {
+  color: var(--second-color-theme);
+  border: solid var(--second-color-theme);
+}
+
+.display-info {
+  color: slateblue;
+}

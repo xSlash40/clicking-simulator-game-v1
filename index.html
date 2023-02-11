@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Clicking Sim</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="style.css" rel="stylesheet" />
+    <script type="module" defer src="main.js"></script>
+  </head>
+  <body>
+    <h1 class="title">Clicking Simulator</h1>
+    <h3>WARNING! Your progress will not save!</h3>
+    <button class="btn acc">Create an account</button>
+    <button class="btn login">Login</button>
+    <br />
+    <button class="btn load hidden">load game</button>
+
+    <section class="game">
+      <!-- <p class="instruction">
+      Click the button that reads "click" and click it as many times as you can.
+      Once a certain amount of clicks has been obtained, which you can check in
+      "Rebirth Requirement," click the button that reads "rebirth" and click it
+      in order to get more clicks per physical click. You can also go to the
+      shop to buy multipliers for your click rate.
+      <button class="btn hider">Hide instruction?</button>
+    </p> -->
+      <section class="click-content">
+        <p class="start_position-game"></p>
+        <nav class="options">
+          <button class="btn clicker">Click!</button>
+          <button class="btn rebirth">Rebirth!</button>
+          <a href="" class="btn shop">Shop!</a>
+          <a href="" class="btn settings"> Settings! </a>
+        </nav>
+        <h1 class="subtitles">Clicks:</h1>
+        <h1 class="counter" value="0">0</h1>
+        <h1 class="subtitles">Rebirths:</h1>
+        <h1 class="rebirth-count">0</h1>
+        <h1 class="subtitles">Rebirth Requirement:</h1>
+        <h2 class="rebirth-req">5</h2>
+      </section>
+
+      <section class="shop-content">
+        <h1 class="start_position-shop"></h1>
+        <nav class="options">
+          <h1 class="subtitles">Shop:</h1>
+          <a href="" class="btn return">Return?</a>
+        </nav>
+        <section class="multipliers">
+          <br />
+          <img src="images/x2 icon.webp" height="150px" />
+          <div class="desc x2">
+            Doubles rate of clicks (costs --- 2,000 clicks & 20 rebirths ---)
+            <button class="btn purchase mult x2">Buy!</button>
+          </div>
+          <img src="images/x4 icon.webp" height="150px" />
+          <div class="desc x4">
+            Quadruples rate of clicks (costs --- 5,000 clicks & 30 rebirths ---)
+            <button class="btn purchase mult x4">Buy!</button>
+          </div>
+          <img src="images/auto icon.webp" height="150px" class="a" />
+          <div class="desc auto">
+            Clicks for you! Can buy multiple autoclickers (costs --- 1000 clicks
+            ---)
+            <button class="btn purchase auto">Buy!</button>
+          </div>
+        </section>
+      </section>
+
+      <section class="settings-content">
+        <h1 class="start_position-settings"></h1>
+        <nav class="options">
+          <h1 class="subtitles">Settings:</h1>
+          <a href="" class="btn return">Return?</a>
+        </nav>
+        <section class="themes">
+          <br />
+          <button class="btn dark theme selected">Dark theme (default)</button>
+
+          <button class="btn light theme">Light theme</button>
+        </section>
+      </section>
+    </section>
+  </body>
+</html>
